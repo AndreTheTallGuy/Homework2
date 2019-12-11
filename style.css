@@ -2,12 +2,12 @@ body{
     background-image: url(https://previews.123rf.com/images/annahamster/annahamster1904/annahamster190400088/120744588-coral-color-abstract-background-color-of-the-year-2019-.jpg);
     position: relative;
 }
-.container{
+/* .container{
     margin: 40px 10%;
     background: white;
     padding-bottom: 100px;
     position: relative;
-}
+} */
 .namebar{
     background: teal;
     margin-left: 100px;
@@ -17,6 +17,14 @@ body{
     padding-right: 100px;
 }
 
+.container{
+    background: white;
+
+}
+    
+h3{
+    bottom: 60px
+}
     
 }
 .first{
@@ -29,64 +37,24 @@ body{
     color: teal;
     font-size: 20px;
 }
-.portphotos{
+/* .portphotos{
     position: relative;
     padding: 20px;
-    /* margin-left: 10%; */
-}
-.photos{
-    font-size: 30px;
-    background: teal;
-    color: white;
-    padding: 10px 104px;
-    position: absolute;
-    bottom: 503px;
-    left: 35px;
-}
-.websites{
-    font-size: 30px;
-    background: teal;
-    color: white;
-    padding: 10px 90.5px;
-    position: absolute;
-    bottom: 60px;
-    left: 35px;
-}
-.code{
-    font-size: 30px;
-    background: teal;
-    color: white;
-    padding: 10px 115.5px;
-    position: absolute;
-    bottom: 58px;
-    left: 35px;
-}
-.repo{
-    font-size: 30px;
-    background: teal;
-    color: white;
-    padding: 10px 69.5px;
-    position: absolute;
-    bottom: 58px;
-    left: 35px;
+    margin-left: 10%; */
 }
 
 
 
 
 
-footer{
-    position: absolute;
-    color: white;
-    text-align: center;
-    background: teal;
-    /* margin: -5px; */
-    padding: 20px;
-    border-top: #657979 5px solid;
-    bottom: -200px;
-    width: 100%;
 
+@media screen and (max-width: 1300px){
+    .confoot{
+        position: absolute;
+        bottom: -400px
+    }
 }
+
 
 @media screen and (max-width: 767px) {
     .photos{

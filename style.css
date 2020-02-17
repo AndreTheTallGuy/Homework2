@@ -10,6 +10,9 @@ body {
 .navbar {
   padding-right: 100px;
 }
+.mainText {
+  padding: 0 10px 20px 10px;
+}
 .container {
   background: white;
   border-radius: 10px;

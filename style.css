@@ -47,6 +47,10 @@ h3 {
   font-size: 20px;
 }
 
+.contact-footer {
+  margin-top: 116px;
+}
+
 @media screen and (max-width: 1300px) {
   .confoot {
     position: absolute;

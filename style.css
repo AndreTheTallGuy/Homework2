@@ -21,9 +21,21 @@ body {
 }
 
 h3 {
-  bottom: 60px;
-  left: 0;
+  bottom: 45px;
 }
+.photo-one {
+  left: -340px;
+}
+.photo-two {
+  left: -340px;
+}
+.photo-three {
+  left: -340px;
+}
+.photo-four {
+  left: -340px;
+}
+
 .first {
   padding-left: 30%;
 }

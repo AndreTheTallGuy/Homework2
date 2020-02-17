@@ -1,91 +1,66 @@
-body{
-    background-image: url(https://previews.123rf.com/images/annahamster/annahamster1904/annahamster190400088/120744588-coral-color-abstract-background-color-of-the-year-2019-.jpg);
-    position: relative;
+body {
+  background-image: url(https://previews.123rf.com/images/annahamster/annahamster1904/annahamster190400088/120744588-coral-color-abstract-background-color-of-the-year-2019-.jpg);
+  position: relative;
+}
+.namebar {
+  background: teal;
+  margin-left: 100px;
+  padding: px 10px;
+}
+.navbar {
+  padding-right: 100px;
+}
+.container {
+  background: white;
+  border-radius: 10px;
+}
+h3 {
+  bottom: 60px;
+}
+.first {
+  padding-left: 30%;
+}
+.submit {
+  background: teal;
+}
+.context {
+  color: teal;
+  font-size: 20px;
 }
 
-.namebar{
-    background: teal;
-    margin-left: 100px;
-    padding: px 10px;
+@media screen and (max-width: 1300px) {
+  .confoot {
+    position: absolute;
+    bottom: -400px;
+  }
 }
-.navbar{
-    padding-right: 100px;
-}
-
-.container{
-    background: white;
-
-}
-    
-h3{
-    bottom: 60px
-}
-    
-}
-.first{
-    padding-left: 30%;
-}
-.submit{
-    background: teal;
-}
-.context{
-    color: teal;
-    font-size: 20px;
-}
-/* .portphotos{
-    position: relative;
-    padding: 20px;
-    margin-left: 10%; */
-}
-
-
-
-
-
-
-@media screen and (max-width: 1300px){
-    .confoot{
-        position: absolute;
-        bottom: -400px
-    }
-}
-
-
 @media screen and (max-width: 767px) {
-    .photos{
-        font-size: 30px;
-        background: teal;
-        color: white;
-        padding: 10px 104px;
-        position: absolute;
-        bottom: 1187px;
-        left: 35px;
-        z-index: 3;
-    }
+  .photos {
+    font-size: 30px;
+    background: teal;
+    color: white;
+    padding: 10px 104px;
+    position: absolute;
+    bottom: 1187px;
+    left: 35px;
+    z-index: 3;
+  }
 }
-
-
 @media screen and (max-width: 600px) {
-    .container{
-        margin-left: 0;
-        
-    }
-
-
-
-
-
+  .container {
+    margin-left: 0;
+  }
 }
 @media screen and (max-width: 500px) {
-    .mainText{
-        display: inline-block;
-
-    }
-    .namebar{
-        margin-left: 0px;
-    }
+  .mainText {
+    display: inline-block;
+  }
+  .namebar {
+    margin-left: 0px;
+  }
 }
 @media screen and (max-width: 357px) {
-    .container{
-        width: 100%;
-    }
+  .container {
+    width: 100%;
+  }
+}
